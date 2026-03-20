@@ -1,49 +1,27 @@
-HELP.md
+# Java / Maven
 target/
+*.class
+*.jar
+*.war
+*.ear
 .mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Angular / Node
+node_modules/
+.angular/
+dist/
+.npm/
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
-.vscode/
-
-# Built-in caches and dependencies
-**/node_modules/
-**/.angular/
-**/target/
-**/dist/
-
-# OS/IDE junk
+# IDEs
 .vscode/
 .idea/
-*.log
+*.iml
+*.iws
+.project
+.settings/
+.classpath
+
+# OS Junk
 .DS_Store
 Thumbs.db
-
-# Java/Maven
-!.mvn/wrapper/maven-wrapper.jar
+*.log
